@@ -11,7 +11,7 @@ let package = Package(
       targets: ["QKMRZScanner"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/itopstack/QKMRZParser", from: "1.0.0"),
+    .package(url: "https://github.com/itopstack/QKMRZParser", exact: "1.0.4"),
     .package(url: "https://github.com/SwiftyTesseract/SwiftyTesseract", from: "4.0.0"),
   ],
   targets: [
